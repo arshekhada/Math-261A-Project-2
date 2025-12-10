@@ -1,0 +1,41 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{2}{c}{TotalApprovedUnits}\\
+   Model:             & (1)            & (2)\\  
+   \midrule
+   \emph{Variables}\\
+   Constant           & 168.4$^{***}$  &   \\   
+                      & (35.56)        &   \\   
+   PriorApprovedUnits & 0.5459$^{***}$ & -0.1067$^{**}$\\   
+                      & (0.0188)       & (0.0537)\\   
+   LowIncomeShare     & -120.9$^{***}$ & -91.30$^{***}$\\   
+                      & (34.03)        & (28.58)\\   
+   DensityBonusCount  & 15.97$^{***}$  & 3.028\\   
+                      & (1.728)        & (17.80)\\   
+   YearFactor2020     & -17.02         & 0.5300\\   
+                      & (45.67)        & (35.67)\\   
+   YearFactor2021     & -22.61         & 7.486\\   
+                      & (45.08)        & (30.82)\\   
+   YearFactor2022     & 12.88          & 62.80$^{**}$\\   
+                      & (44.93)        & (31.80)\\   
+   YearFactor2023     & -119.0$^{***}$ & -25.46\\   
+                      & (44.75)        & (24.03)\\   
+   YearFactor2024     & -63.96         & -28.49\\   
+                      & (45.12)        & (36.01)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   City               &                & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations       & 2,367          & 2,353\\  
+   R$^2$              & 0.43041        & 0.69275\\  
+   Within R$^2$       &                & 0.01864\\  
+   \midrule \midrule
+   \multicolumn{3}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+
